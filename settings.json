@@ -14,6 +14,7 @@
       "Task",
       "Bash(npm run lint)",
       "Bash(npm run test:*)",
+      "Bash(./gradlew ktlintFormat)",
       "Bash(git log:*)",
       "Bash(curl:*)",
       "Bash(ls:*)",
@@ -26,7 +27,11 @@
       "List",
       "Read",
       "WebFetch",
-      "WebSearch"
+      "WebSearch",
+      "mcp__mcp-atlassian__jira_get_issue",
+      "mcp__mcp-atlassian__jira_create_issue",
+      "mcp__mcp-atlassian__jira_update_issue",
+      "mcp__mcp-atlassian__jira_search"
     ],
     "deny": [
       "Bash(rm:*)",
