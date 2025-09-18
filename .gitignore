@@ -1,0 +1,43 @@
+# IDE and editor files
+ide/
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and temporary files
+logs/
+*.log
+*.tmp
+temp/
+
+# System files
+.DS_Store
+Thumbs.db
+*.bak
+
+# Shell snapshots and session data
+shell-snapshots/
+
+# Personal/private configurations
+config/notification_states.json
+
+# Statistics and analytics
+statsig/
+
+# Cache and temporary data
+cache/
+.cache/
+
+# Personal projects and work history
+projects/
+
+# Backup files
+*.backup
+*~
+
+# OS generated files
+.Trashes
+.fseventsd
+.Spotlight-V100
+.TemporaryItems

@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "model": "opusplan",
+  "statusLine": {
+    "type": "command",
+    "command": "uv run ~/.claude/status_lines/status_line.py",
+    "padding": 0
+  },
+  "feedbackSurveyState": {
+    "lastShownTime": 1754040932328
+  },
+  "permissions": {
+    "allow": [
+      "Task",
+      "Bash(npm run lint)",
+      "Bash(npm run test:*)",
+      "Bash(git log:*)",
+      "Bash(curl:*)",
+      "Bash(ls:*)",
+      "Bash(find:*)",
+      "Bash(ollama:*)",
+      "Bash(source:*)",
+      "Bash(which:*)",
+      "Read(~/.zshrc)",
+      "Grep",
+      "List",
+      "Read",
+      "WebFetch",
+      "WebSearch"
+    ],
+    "deny": [
+      "Bash(rm:*)",
+      "Read(application.yml)",
+      "Read(**/application.yml)"
+    ],
+    "defaultMode": "plan"
+  },
+  "env": {
+    "BASH_DEFAULT_TIMEOUT_MS": "60000"
+  },
+  "includeCoAuthoredBy": false
+}

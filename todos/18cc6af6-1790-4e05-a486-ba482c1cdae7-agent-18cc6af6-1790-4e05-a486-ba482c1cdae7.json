@@ -1,0 +1,22 @@
+[
+  {
+    "content": "Add all files to git staging",
+    "status": "in_progress",
+    "activeForm": "Adding files to staging"
+  },
+  {
+    "content": "Create initial commit with SuperClaude framework",
+    "status": "pending",
+    "activeForm": "Creating initial commit"
+  },
+  {
+    "content": "Add remote origin to GitHub repository",
+    "status": "pending",
+    "activeForm": "Adding remote origin"
+  },
+  {
+    "content": "Push to GitHub repository",
+    "status": "pending",
+    "activeForm": "Pushing to GitHub"
+  }
+]
