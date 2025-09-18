@@ -32,6 +32,9 @@ cache/
 # Personal projects and work history
 projects/
 
+# Task management and todos
+todos/
+
 # Backup files
 *.backup
 *~
