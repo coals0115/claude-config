@@ -47,6 +47,7 @@
       "mcp__github__create_issue",
       "mcp__github__update_issue",
       "mcp__github__create_issue_comment",
+      "mcp__github__get_pull_request_comments",
       "mcp__github__merge_pull_request",
       "mcp__github__close_pull_request",
       "mcp__github__request_review"
