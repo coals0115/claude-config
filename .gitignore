@@ -35,6 +35,11 @@ projects/
 # Task management and todos
 todos/
 
+# Debug and history files
+debug/
+file-history/
+history.jsonl
+
 # Backup files
 *.backup
 *~

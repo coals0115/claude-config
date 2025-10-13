@@ -1,14 +1,9 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-settings.json",
-  "model": "opusplan",
-  "statusLine": {
-    "type": "command",
-    "command": "uv run ~/.claude/status_lines/status_line.py",
-    "padding": 0
+  "env": {
+    "BASH_DEFAULT_TIMEOUT_MS": "60000"
   },
-  "feedbackSurveyState": {
-    "lastShownTime": 1754040932328
-  },
+  "includeCoAuthoredBy": false,
   "permissions": {
     "allow": [
       "Task",
@@ -50,17 +45,33 @@
       "mcp__github__get_pull_request_comments",
       "mcp__github__merge_pull_request",
       "mcp__github__close_pull_request",
-      "mcp__github__request_review"
+      "mcp__github__request_review",
+      "mcp__playwright__browser_snapshot",
+      "mcp__playwright__browser_click",
+      "mcp__playwright__browser_wait_for",
+      "mcp__playwright__browser_type",
+      "mcp__playwright__browser_evaluate",
+      "mcp__playwright__browser_navigate",
+      "mcp__playwright__browser_fill_form",
+      "mcp__playwright__browser_select_option",
+      "mcp__playwright__browser_take_screenshot",
+      "mcp__playwright__browser_console_messages",
+      "mcp__playwright__*"
     ],
     "deny": [
       "Bash(rm:*)",
       "Read(application.yml)",
       "Read(**/application.yml)"
     ],
-    "defaultMode": "plan"
+    "defaultMode": "ask"
   },
-  "env": {
-    "BASH_DEFAULT_TIMEOUT_MS": "60000"
+  "statusLine": {
+    "type": "command",
+    "command": "uv run ~/.claude/status_lines/status_line.py",
+    "padding": 0
   },
-  "includeCoAuthoredBy": false
+  "alwaysThinkingEnabled": false,
+  "feedbackSurveyState": {
+    "lastShownTime": 1754040932328
+  }
 }
